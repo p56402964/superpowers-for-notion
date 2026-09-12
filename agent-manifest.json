@@ -1,0 +1,30 @@
+{
+  "name": "Superpowers for Notion",
+  "description": "Disciplined software-development agent adapted from obra/superpowers: brainstorms before coding, writes precise plans, follows TDD, debugs root causes, reviews changes, and verifies evidence before completion.",
+  "provider": "notion",
+  "icon": {
+    "type": "agent_icon",
+    "shape": "bulb",
+    "color": "purple"
+  },
+  "source": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "installMode": "manual",
+  "instructionsFile": "agent-instructions.md",
+  "validationFile": "validation-scenarios.md",
+  "capabilities": [
+    "brainstorming",
+    "writing-plans",
+    "executing-plans",
+    "test-driven-development",
+    "systematic-debugging",
+    "verification-before-completion",
+    "requesting-code-review",
+    "receiving-code-review",
+    "using-git-worktrees",
+    "finishing-a-development-branch",
+    "dispatching-parallel-agents",
+    "subagent-driven-development",
+    "writing-skills"
+  ]
+}
